@@ -1,0 +1,461 @@
+-- Merging decision tree log ---
+manifest
+ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:18:1-193:12
+INJECTED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:18:1-193:12
+INJECTED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:18:1-193:12
+INJECTED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:18:1-193:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\Zhouzy\.gradle\caches\transforms-3\c632d8d02146572ff656b1856f1cbefd\transformed\constraintlayout-2.0.4\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.material:material:1.2.1] C:\Users\Zhouzy\.gradle\caches\transforms-3\7eb9d7272be80e269ba2586219fcf135\transformed\material-1.2.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\Zhouzy\.gradle\caches\transforms-3\61ccb90159fe9b692117cd984c53eaed\transformed\appcompat-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Zhouzy\.gradle\caches\transforms-3\78bd3bb768aab85adbc69a8f1787f515\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Zhouzy\.gradle\caches\transforms-3\ee55d4a7f371e60c36a3611b55495ea0\transformed\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.8.1] C:\Users\Zhouzy\.gradle\caches\transforms-3\4dc17a974f1fd7a825a981f1aee64ad8\transformed\jetified-activity-1.8.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Users\Zhouzy\.gradle\caches\transforms-3\e188abec0e4b9d9cda5fa681ee39c945\transformed\recyclerview-1.2.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\Zhouzy\.gradle\caches\transforms-3\ae98e65e720edd0964e432ca91ff131a\transformed\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Zhouzy\.gradle\caches\transforms-3\9853aee1f7496b00da3a1e7e03db31c3\transformed\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Zhouzy\.gradle\caches\transforms-3\c78d82e0fd15bb36f02a717d4e0de573\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Zhouzy\.gradle\caches\transforms-3\0f3122d9d2e5e8dc23576e8fe6033800\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Zhouzy\.gradle\caches\transforms-3\3ec8c36bdcb6d9403af1451c6cbbbdc9\transformed\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\Zhouzy\.gradle\caches\transforms-3\c67077fb9bcd97d81f7fd7b65fa44cb0\transformed\transition-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Zhouzy\.gradle\caches\transforms-3\bcc4d444a2a734be677763ff6c7449ae\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Zhouzy\.gradle\caches\transforms-3\b624365659dd3aafc372923056d5f712\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\Zhouzy\.gradle\caches\transforms-3\f6148dda3954b1633b9e014775b36e2c\transformed\jetified-savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Zhouzy\.gradle\caches\transforms-3\72ac7939cfac6baaf3ca938ea0e25983\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.1] C:\Users\Zhouzy\.gradle\caches\transforms-3\6c84f1c0f88dc2d18b4821c7f57a9138\transformed\lifecycle-livedata-2.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] C:\Users\Zhouzy\.gradle\caches\transforms-3\c3a76af1656091a34d9dc70b4ecb6db1\transformed\lifecycle-livedata-core-2.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] C:\Users\Zhouzy\.gradle\caches\transforms-3\863fd2066287dd00b1ad76ee7b62063a\transformed\lifecycle-viewmodel-2.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] C:\Users\Zhouzy\.gradle\caches\transforms-3\b91fbe26fb9b0387d952ba0a6a30e793\transformed\jetified-lifecycle-viewmodel-savedstate-2.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.2.0] C:\Users\Zhouzy\.gradle\caches\transforms-3\e884859f46d7ad653e1cf434300ad1dd\transformed\jetified-core-ktx-1.2.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.core:core:1.8.0] C:\Users\Zhouzy\.gradle\caches\transforms-3\04a55a8205e24ad0aa9345040c025e9d\transformed\core-1.8.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] C:\Users\Zhouzy\.gradle\caches\transforms-3\f180ff422ec78274811b2c28d7ddf53c\transformed\lifecycle-runtime-2.6.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zhouzy\.gradle\caches\transforms-3\49e07d1c3ab14f934ac17356918f1263\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Zhouzy\.gradle\caches\transforms-3\b9c62d34c1242aa39648eb719d15050e\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Zhouzy\.gradle\caches\transforms-3\67867e9df839197db3868abe84e4d76d\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Zhouzy\.gradle\caches\transforms-3\78617eef17cb8d930b0d3c4952977d61\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Zhouzy\.gradle\caches\transforms-3\022316015dcc5b40cdeec3a9553a09b8\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Zhouzy\.gradle\caches\transforms-3\a4f715409e5af4f88ea5ed59753570f8\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\Zhouzy\.gradle\caches\transforms-3\04aa8ca6d8bc272be343026cb6031cab\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Zhouzy\.gradle\caches\transforms-3\ad279b5b1283f10e8f1680c3c041704b\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\Zhouzy\.gradle\caches\transforms-3\a24bd8b3d7c85f6b85f97941bfbbee12\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
+	package
+		ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:20:5-31
+		INJECTED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:22:5-30
+		INJECTED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:19:5-51
+	xmlns:android
+		ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:18:11-69
+	android:versionCode
+		ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:21:5-28
+		INJECTED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml
+uses-sdk
+ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:24:5-26:15
+INJECTED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:24:5-26:15
+INJECTED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:24:5-26:15
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\Zhouzy\.gradle\caches\transforms-3\c632d8d02146572ff656b1856f1cbefd\transformed\constraintlayout-2.0.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\Zhouzy\.gradle\caches\transforms-3\c632d8d02146572ff656b1856f1cbefd\transformed\constraintlayout-2.0.4\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.material:material:1.2.1] C:\Users\Zhouzy\.gradle\caches\transforms-3\7eb9d7272be80e269ba2586219fcf135\transformed\material-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.2.1] C:\Users\Zhouzy\.gradle\caches\transforms-3\7eb9d7272be80e269ba2586219fcf135\transformed\material-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\Zhouzy\.gradle\caches\transforms-3\61ccb90159fe9b692117cd984c53eaed\transformed\appcompat-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\Zhouzy\.gradle\caches\transforms-3\61ccb90159fe9b692117cd984c53eaed\transformed\appcompat-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Zhouzy\.gradle\caches\transforms-3\78bd3bb768aab85adbc69a8f1787f515\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Zhouzy\.gradle\caches\transforms-3\78bd3bb768aab85adbc69a8f1787f515\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Zhouzy\.gradle\caches\transforms-3\ee55d4a7f371e60c36a3611b55495ea0\transformed\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Zhouzy\.gradle\caches\transforms-3\ee55d4a7f371e60c36a3611b55495ea0\transformed\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.8.1] C:\Users\Zhouzy\.gradle\caches\transforms-3\4dc17a974f1fd7a825a981f1aee64ad8\transformed\jetified-activity-1.8.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.1] C:\Users\Zhouzy\.gradle\caches\transforms-3\4dc17a974f1fd7a825a981f1aee64ad8\transformed\jetified-activity-1.8.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Users\Zhouzy\.gradle\caches\transforms-3\e188abec0e4b9d9cda5fa681ee39c945\transformed\recyclerview-1.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Users\Zhouzy\.gradle\caches\transforms-3\e188abec0e4b9d9cda5fa681ee39c945\transformed\recyclerview-1.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\Zhouzy\.gradle\caches\transforms-3\ae98e65e720edd0964e432ca91ff131a\transformed\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\Zhouzy\.gradle\caches\transforms-3\ae98e65e720edd0964e432ca91ff131a\transformed\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Zhouzy\.gradle\caches\transforms-3\9853aee1f7496b00da3a1e7e03db31c3\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Zhouzy\.gradle\caches\transforms-3\9853aee1f7496b00da3a1e7e03db31c3\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Zhouzy\.gradle\caches\transforms-3\c78d82e0fd15bb36f02a717d4e0de573\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Zhouzy\.gradle\caches\transforms-3\c78d82e0fd15bb36f02a717d4e0de573\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Zhouzy\.gradle\caches\transforms-3\0f3122d9d2e5e8dc23576e8fe6033800\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Zhouzy\.gradle\caches\transforms-3\0f3122d9d2e5e8dc23576e8fe6033800\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Zhouzy\.gradle\caches\transforms-3\3ec8c36bdcb6d9403af1451c6cbbbdc9\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Zhouzy\.gradle\caches\transforms-3\3ec8c36bdcb6d9403af1451c6cbbbdc9\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\Zhouzy\.gradle\caches\transforms-3\c67077fb9bcd97d81f7fd7b65fa44cb0\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\Zhouzy\.gradle\caches\transforms-3\c67077fb9bcd97d81f7fd7b65fa44cb0\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Zhouzy\.gradle\caches\transforms-3\bcc4d444a2a734be677763ff6c7449ae\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Zhouzy\.gradle\caches\transforms-3\bcc4d444a2a734be677763ff6c7449ae\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Zhouzy\.gradle\caches\transforms-3\b624365659dd3aafc372923056d5f712\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Zhouzy\.gradle\caches\transforms-3\b624365659dd3aafc372923056d5f712\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\Zhouzy\.gradle\caches\transforms-3\f6148dda3954b1633b9e014775b36e2c\transformed\jetified-savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\Zhouzy\.gradle\caches\transforms-3\f6148dda3954b1633b9e014775b36e2c\transformed\jetified-savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Zhouzy\.gradle\caches\transforms-3\72ac7939cfac6baaf3ca938ea0e25983\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Zhouzy\.gradle\caches\transforms-3\72ac7939cfac6baaf3ca938ea0e25983\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.1] C:\Users\Zhouzy\.gradle\caches\transforms-3\6c84f1c0f88dc2d18b4821c7f57a9138\transformed\lifecycle-livedata-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.1] C:\Users\Zhouzy\.gradle\caches\transforms-3\6c84f1c0f88dc2d18b4821c7f57a9138\transformed\lifecycle-livedata-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] C:\Users\Zhouzy\.gradle\caches\transforms-3\c3a76af1656091a34d9dc70b4ecb6db1\transformed\lifecycle-livedata-core-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] C:\Users\Zhouzy\.gradle\caches\transforms-3\c3a76af1656091a34d9dc70b4ecb6db1\transformed\lifecycle-livedata-core-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] C:\Users\Zhouzy\.gradle\caches\transforms-3\863fd2066287dd00b1ad76ee7b62063a\transformed\lifecycle-viewmodel-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] C:\Users\Zhouzy\.gradle\caches\transforms-3\863fd2066287dd00b1ad76ee7b62063a\transformed\lifecycle-viewmodel-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] C:\Users\Zhouzy\.gradle\caches\transforms-3\b91fbe26fb9b0387d952ba0a6a30e793\transformed\jetified-lifecycle-viewmodel-savedstate-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] C:\Users\Zhouzy\.gradle\caches\transforms-3\b91fbe26fb9b0387d952ba0a6a30e793\transformed\jetified-lifecycle-viewmodel-savedstate-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.2.0] C:\Users\Zhouzy\.gradle\caches\transforms-3\e884859f46d7ad653e1cf434300ad1dd\transformed\jetified-core-ktx-1.2.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.2.0] C:\Users\Zhouzy\.gradle\caches\transforms-3\e884859f46d7ad653e1cf434300ad1dd\transformed\jetified-core-ktx-1.2.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core:1.8.0] C:\Users\Zhouzy\.gradle\caches\transforms-3\04a55a8205e24ad0aa9345040c025e9d\transformed\core-1.8.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.8.0] C:\Users\Zhouzy\.gradle\caches\transforms-3\04a55a8205e24ad0aa9345040c025e9d\transformed\core-1.8.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] C:\Users\Zhouzy\.gradle\caches\transforms-3\f180ff422ec78274811b2c28d7ddf53c\transformed\lifecycle-runtime-2.6.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] C:\Users\Zhouzy\.gradle\caches\transforms-3\f180ff422ec78274811b2c28d7ddf53c\transformed\lifecycle-runtime-2.6.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zhouzy\.gradle\caches\transforms-3\49e07d1c3ab14f934ac17356918f1263\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zhouzy\.gradle\caches\transforms-3\49e07d1c3ab14f934ac17356918f1263\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Zhouzy\.gradle\caches\transforms-3\b9c62d34c1242aa39648eb719d15050e\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Zhouzy\.gradle\caches\transforms-3\b9c62d34c1242aa39648eb719d15050e\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Zhouzy\.gradle\caches\transforms-3\67867e9df839197db3868abe84e4d76d\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Zhouzy\.gradle\caches\transforms-3\67867e9df839197db3868abe84e4d76d\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Zhouzy\.gradle\caches\transforms-3\78617eef17cb8d930b0d3c4952977d61\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Zhouzy\.gradle\caches\transforms-3\78617eef17cb8d930b0d3c4952977d61\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Zhouzy\.gradle\caches\transforms-3\022316015dcc5b40cdeec3a9553a09b8\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Zhouzy\.gradle\caches\transforms-3\022316015dcc5b40cdeec3a9553a09b8\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Zhouzy\.gradle\caches\transforms-3\a4f715409e5af4f88ea5ed59753570f8\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Zhouzy\.gradle\caches\transforms-3\a4f715409e5af4f88ea5ed59753570f8\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\Zhouzy\.gradle\caches\transforms-3\04aa8ca6d8bc272be343026cb6031cab\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\Zhouzy\.gradle\caches\transforms-3\04aa8ca6d8bc272be343026cb6031cab\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Zhouzy\.gradle\caches\transforms-3\ad279b5b1283f10e8f1680c3c041704b\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Zhouzy\.gradle\caches\transforms-3\ad279b5b1283f10e8f1680c3c041704b\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\Zhouzy\.gradle\caches\transforms-3\a24bd8b3d7c85f6b85f97941bfbbee12\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\Zhouzy\.gradle\caches\transforms-3\a24bd8b3d7c85f6b85f97941bfbbee12\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+	android:targetSdkVersion
+		ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:25:15-44
+		INJECTED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:24:15-41
+		INJECTED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:28:5-29:38
+	android:maxSdkVersion
+		ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:29:9-35
+	android:name
+		ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:28:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:30:5-31:12
+	android:name
+		ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:30:22-77
+uses-permission#com.android.launcher.permission.INSTALL_SHORTCUT
+ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:33:5-88
+	android:name
+		ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:33:22-85
+uses-permission#android.permission.INTERNET
+ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:34:5-67
+	android:name
+		ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:34:22-64
+uses-permission#android.permission.READ_CONTACTS
+ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:35:5-72
+	android:name
+		ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:35:22-69
+uses-permission#android.permission.MANAGE_ACCOUNTS
+ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:36:5-74
+	android:name
+		ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:36:22-71
+uses-permission#android.permission.AUTHENTICATE_ACCOUNTS
+ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:37:5-80
+	android:name
+		ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:37:22-77
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:38:5-71
+	android:name
+		ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:38:22-68
+uses-permission#android.permission.USE_CREDENTIALS
+ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:39:5-74
+	android:name
+		ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:39:22-71
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:40:5-81
+	android:name
+		ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:40:22-78
+uses-permission#android.permission.READ_MEDIA_IMAGES
+ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:41:5-76
+	android:name
+		ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:41:22-73
+application
+ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:43:5-192:19
+INJECTED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:43:5-192:19
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\Zhouzy\.gradle\caches\transforms-3\c632d8d02146572ff656b1856f1cbefd\transformed\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\Zhouzy\.gradle\caches\transforms-3\c632d8d02146572ff656b1856f1cbefd\transformed\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.material:material:1.2.1] C:\Users\Zhouzy\.gradle\caches\transforms-3\7eb9d7272be80e269ba2586219fcf135\transformed\material-1.2.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.2.1] C:\Users\Zhouzy\.gradle\caches\transforms-3\7eb9d7272be80e269ba2586219fcf135\transformed\material-1.2.1\AndroidManifest.xml:22:5-20
+MERGED from [androidx.core:core:1.8.0] C:\Users\Zhouzy\.gradle\caches\transforms-3\04a55a8205e24ad0aa9345040c025e9d\transformed\core-1.8.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.8.0] C:\Users\Zhouzy\.gradle\caches\transforms-3\04a55a8205e24ad0aa9345040c025e9d\transformed\core-1.8.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zhouzy\.gradle\caches\transforms-3\49e07d1c3ab14f934ac17356918f1263\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zhouzy\.gradle\caches\transforms-3\49e07d1c3ab14f934ac17356918f1263\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Zhouzy\.gradle\caches\transforms-3\b9c62d34c1242aa39648eb719d15050e\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Zhouzy\.gradle\caches\transforms-3\b9c62d34c1242aa39648eb719d15050e\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Zhouzy\.gradle\caches\transforms-3\a4f715409e5af4f88ea5ed59753570f8\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Zhouzy\.gradle\caches\transforms-3\a4f715409e5af4f88ea5ed59753570f8\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+	android:extractNativeLibs
+		INJECTED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml
+	android:requestLegacyExternalStorage
+		ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:44:9-52
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.8.0] C:\Users\Zhouzy\.gradle\caches\transforms-3\04a55a8205e24ad0aa9345040c025e9d\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:46:9-41
+	android:icon
+		ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:45:9-42
+activity#net.micode.notes.ui.NotesListActivity
+ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:48:9-66:20
+	android:label
+		ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:51:13-45
+	android:launchMode
+		ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:52:13-43
+	android:windowSoftInputMode
+		ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:55:13-52
+	android:exported
+		ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:56:13-36
+	android:uiOptions
+		ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:54:13-57
+	android:configChanges
+		ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:50:13-74
+	android:theme
+		ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:53:13-45
+	android:name
+		ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:49:13-49
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:58:13-61:29
+action#android.intent.action.MAIN
+ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:59:17-69
+	android:name
+		ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:59:25-66
+category#android.intent.category.LAUNCHER
+ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:60:17-77
+	android:name
+		ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:60:27-74
+meta-data#android.app.searchable
+ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:62:13-65:19
+	android:resource
+		ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:64:17-51
+	android:name
+		ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:63:17-54
+activity#net.micode.notes.ui.NoteEditActivity
+ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:68:9-96:20
+	android:launchMode
+		ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:71:13-43
+	android:exported
+		ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:73:13-36
+	android:configChanges
+		ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:70:13-74
+	android:theme
+		ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:72:13-45
+	android:name
+		ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:69:13-48
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.DEFAULT+data:mimeType:vnd.android.cursor.item/call_note+data:mimeType:vnd.android.cursor.item/text_note
+ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:75:13-80:29
+	android:scheme
+		ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:75:28-49
+	tools:ignore
+		ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:75:50-80
+action#android.intent.action.VIEW
+ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:76:17-69
+	android:name
+		ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:76:25-66
+category#android.intent.category.DEFAULT
+ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:77:17-76
+	android:name
+		ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:77:27-73
+data
+ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:78:17-78
+	android:mimeType
+		ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:78:23-75
+intent-filter#action:name:android.intent.action.INSERT_OR_EDIT+category:name:android.intent.category.DEFAULT+data:mimeType:vnd.android.cursor.item/call_note+data:mimeType:vnd.android.cursor.item/text_note
+ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:82:13-87:29
+action#android.intent.action.INSERT_OR_EDIT
+ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:83:17-79
+	android:name
+		ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:83:25-76
+intent-filter#action:name:android.intent.action.SEARCH+category:name:android.intent.category.DEFAULT
+ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:89:13-92:29
+action#android.intent.action.SEARCH
+ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:90:17-71
+	android:name
+		ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:90:25-68
+activity#net.micode.notes.ui.EditActivity
+ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:97:9-99:40
+	android:exported
+		ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:99:13-37
+	android:name
+		ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:98:13-44
+activity#net.micode.notes.ui.AddActivity
+ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:100:9-103:36
+	android:label
+		ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:103:13-33
+	android:exported
+		ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:102:13-37
+	android:name
+		ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:101:13-43
+activity#net.micode.notes.ui.SafeFolderActivity
+ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:104:9-107:40
+	android:label
+		ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:106:13-34
+	android:exported
+		ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:107:13-37
+	android:name
+		ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:105:13-50
+activity#net.micode.notes.ui.pwdActivity
+ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:108:9-110:40
+	android:exported
+		ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:110:13-37
+	android:name
+		ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:109:13-43
+provider#net.micode.notes.data.NotesProvider
+ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:114:9-117:43
+	android:authorities
+		ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:116:13-47
+	android:multiprocess
+		ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:117:13-40
+	android:name
+		ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:115:13-63
+receiver#net.micode.notes.widget.NoteWidgetProvider_2x
+ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:119:9-132:20
+	android:label
+		ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:121:13-50
+	android:exported
+		ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:122:13-37
+	android:name
+		ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:120:13-57
+intent-filter#action:name:android.appwidget.action.APPWIDGET_DELETED+action:name:android.appwidget.action.APPWIDGET_UPDATE+action:name:android.intent.action.PRIVACY_MODE_CHANGED
+ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:123:13-127:29
+action#android.appwidget.action.APPWIDGET_UPDATE
+ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:124:17-84
+	android:name
+		ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:124:25-81
+action#android.appwidget.action.APPWIDGET_DELETED
+ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:125:17-85
+	android:name
+		ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:125:25-82
+action#android.intent.action.PRIVACY_MODE_CHANGED
+ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:126:17-85
+	android:name
+		ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:126:25-82
+meta-data#android.appwidget.provider
+ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:129:13-131:58
+	android:resource
+		ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:131:17-55
+	android:name
+		ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:130:17-58
+receiver#net.micode.notes.widget.NoteWidgetProvider_4x
+ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:133:9-147:20
+	android:label
+		ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:135:13-50
+	android:exported
+		ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:136:13-37
+	android:name
+		ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:134:13-57
+receiver#net.micode.notes.ui.AlarmInitReceiver
+ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:149:9-154:20
+	android:exported
+		ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:150:13-37
+	android:name
+		ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:149:19-55
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED
+ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:151:13-153:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:152:17-79
+	android:name
+		ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:152:25-76
+receiver#net.micode.notes.ui.AlarmReceiver
+ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:156:9-159:20
+	android:process
+		ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:158:13-38
+	android:name
+		ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:157:13-61
+activity#net.micode.notes.ui.AlarmAlertActivity
+ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:161:9-166:20
+	android:label
+		ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:163:13-45
+	android:launchMode
+		ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:164:13-48
+	android:theme
+		ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:165:13-75
+	android:name
+		ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:162:13-50
+activity#net.micode.notes.ui.NotesPreferenceActivity
+ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:168:9-173:20
+	android:label
+		ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:170:13-54
+	android:launchMode
+		ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:171:13-43
+	android:theme
+		ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:172:13-60
+	android:name
+		ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:169:13-71
+service#net.micode.notes.gtask.remote.GTaskSyncService
+ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:175:9-178:19
+	android:exported
+		ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:177:13-37
+	android:name
+		ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:176:13-74
+meta-data#android.app.default_searchable
+ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:180:9-182:52
+	android:value
+		ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:182:13-49
+	android:name
+		ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:181:13-58
+activity#net.micode.notes.ui.SearchableActivity
+ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:183:9-191:20
+	android:launchMode
+		ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:184:13-43
+	android:exported
+		ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:185:13-36
+	android:name
+		ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:183:19-72
+intent-filter#action:name:android.intent.action.SEARCH
+ADDED from G:\codes\MiNotes\app\src\main\AndroidManifest.xml:186:13-188:29
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zhouzy\.gradle\caches\transforms-3\49e07d1c3ab14f934ac17356918f1263\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Zhouzy\.gradle\caches\transforms-3\b9c62d34c1242aa39648eb719d15050e\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Zhouzy\.gradle\caches\transforms-3\b9c62d34c1242aa39648eb719d15050e\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zhouzy\.gradle\caches\transforms-3\49e07d1c3ab14f934ac17356918f1263\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zhouzy\.gradle\caches\transforms-3\49e07d1c3ab14f934ac17356918f1263\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zhouzy\.gradle\caches\transforms-3\49e07d1c3ab14f934ac17356918f1263\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zhouzy\.gradle\caches\transforms-3\49e07d1c3ab14f934ac17356918f1263\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:25:13-67
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zhouzy\.gradle\caches\transforms-3\49e07d1c3ab14f934ac17356918f1263\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zhouzy\.gradle\caches\transforms-3\49e07d1c3ab14f934ac17356918f1263\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zhouzy\.gradle\caches\transforms-3\49e07d1c3ab14f934ac17356918f1263\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zhouzy\.gradle\caches\transforms-3\49e07d1c3ab14f934ac17356918f1263\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zhouzy\.gradle\caches\transforms-3\49e07d1c3ab14f934ac17356918f1263\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zhouzy\.gradle\caches\transforms-3\49e07d1c3ab14f934ac17356918f1263\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zhouzy\.gradle\caches\transforms-3\49e07d1c3ab14f934ac17356918f1263\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zhouzy\.gradle\caches\transforms-3\49e07d1c3ab14f934ac17356918f1263\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zhouzy\.gradle\caches\transforms-3\49e07d1c3ab14f934ac17356918f1263\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zhouzy\.gradle\caches\transforms-3\49e07d1c3ab14f934ac17356918f1263\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zhouzy\.gradle\caches\transforms-3\49e07d1c3ab14f934ac17356918f1263\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zhouzy\.gradle\caches\transforms-3\49e07d1c3ab14f934ac17356918f1263\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zhouzy\.gradle\caches\transforms-3\49e07d1c3ab14f934ac17356918f1263\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zhouzy\.gradle\caches\transforms-3\49e07d1c3ab14f934ac17356918f1263\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zhouzy\.gradle\caches\transforms-3\49e07d1c3ab14f934ac17356918f1263\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zhouzy\.gradle\caches\transforms-3\49e07d1c3ab14f934ac17356918f1263\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zhouzy\.gradle\caches\transforms-3\49e07d1c3ab14f934ac17356918f1263\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zhouzy\.gradle\caches\transforms-3\49e07d1c3ab14f934ac17356918f1263\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zhouzy\.gradle\caches\transforms-3\49e07d1c3ab14f934ac17356918f1263\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zhouzy\.gradle\caches\transforms-3\49e07d1c3ab14f934ac17356918f1263\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zhouzy\.gradle\caches\transforms-3\49e07d1c3ab14f934ac17356918f1263\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:25-92

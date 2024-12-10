@@ -1,0 +1,23 @@
+
+`	java:S112Z"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+a	java:S112Œ"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+>
+java:S1604r"(Make this anonymous inner class a lambda(ÉãÃ®
+€
+java:S1488É"dImmediately return this expression instead of assigning it to the temporary variable "responseText".(‡Å”Ýùÿÿÿÿ
+o	java:S115C"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(³µ­õ
+o	java:S115C"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(³µ­õ
+t
+java:S2142Y"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€
+E
+java:S6035m"0Replace this alternation with a character class.(†ÊÃq
+t
+java:S2142}"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€
+A
+java:S1197¿"*Move the array designators [] to the type.(î¨Ý«
+=
+java:S3398ƒ"!Move this method into "MyThread".(àÌ©Ìýÿÿÿÿ
+=
+java:S3398‘"!Move this method into "MyThread".(±Åíêùÿÿÿÿ
+L
+java:S10687"1Remove this unused "promptForTest" private field.( Æë„ÿÿÿÿÿ

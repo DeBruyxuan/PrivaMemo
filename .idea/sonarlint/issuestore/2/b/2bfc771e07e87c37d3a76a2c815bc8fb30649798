@@ -1,0 +1,10 @@
+
+>
+java:S1604/"(Make this anonymous inner class a lambda(íË½ý
+h	java:S100("NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦Ÿ¦×ýÿÿÿÿ
+x
+java:S3923P"]This conditional operation returns the same value whether the condition is "true" or "false".(Ýç®Üÿÿÿÿÿ
+P
+java:S1874P"5Remove this use of "FORMAT_24HOUR"; it is deprecated.(Ýç®Üÿÿÿÿÿ
+P
+java:S1874P"5Remove this use of "FORMAT_24HOUR"; it is deprecated.(Ýç®Üÿÿÿÿÿ

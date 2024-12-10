@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "net.micode.notes.app-mergeDebugResources-23:/values-h720dp-v13/values-h720dp-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Zhouzy\\.gradle\\caches\\transforms-3\\61ccb90159fe9b692117cd984c53eaed\\transformed\\appcompat-1.2.0\\res\\values-h720dp-v13\\values-h720dp-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "66",
+                        "endOffsets": "117"
+                    }
+                }
+            ]
+        }
+    ]
+}

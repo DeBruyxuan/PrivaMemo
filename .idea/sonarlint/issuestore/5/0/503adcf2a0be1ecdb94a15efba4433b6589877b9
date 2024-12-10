@@ -1,0 +1,14 @@
+
+o
+java:S22931"YReplace the type specification in this constructor call with the diamond operator ("<>").(§ş¢¾
+D
+java:S1604Î"(Make this anonymous inner class a lambda(¯Àÿÿÿÿÿ
+f
+java:S1301h"KReplace this "switch" statement by "if" statements to increase readability.(ãÁğ™øÿÿÿÿ
+M
+java:S1135c"2Complete the task associated to this TODO comment.(ƒŠ® úÿÿÿÿ
+<	java:S131h""Add a default case to this switch.(ãÁğ™øÿÿÿÿ
+^
+java:S1126­"BReplace this if-then-else statement by a single method invocation.(‚å¿¥ûÿÿÿÿ
+P
+java:S2864Â"4Iterate over the "entrySet" instead of the "keySet".(ÎšŸûÿÿÿÿ

@@ -1,0 +1,411 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3 Copyright (c) 2010-2011, The MiCode Open Source Community (www.micode.net)
+4
+5     Licensed under the Apache License, Version 2.0 (the "License");
+6     you may not use this file except in compliance with the License.
+7     You may obtain a copy of the License at
+8
+9          http://www.apache.org/licenses/LICENSE-2.0
+10
+11     Unless required by applicable law or agreed to in writing, software
+12     distributed under the License is distributed on an "AS IS" BASIS,
+13     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+14     See the License for the specific language governing permissions and
+15     limitations under the License.
+16-->
+17<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+18    package="net.micode.notes"
+19    android:versionCode="1"
+20    android:versionName="0.1" >
+21
+22    <uses-sdk
+22-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:24:5-26:15
+23        android:minSdkVersion="14"
+23-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:24:15-41
+24        android:targetSdkVersion="34" />
+24-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:25:15-44
+25
+26    <uses-permission
+26-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:28:5-29:38
+27        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+27-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:28:22-78
+28        android:maxSdkVersion="32" />
+28-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:29:9-35
+29    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+29-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:30:5-31:12
+29-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:30:22-77
+30    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+30-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:33:5-88
+30-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:33:22-85
+31    <uses-permission android:name="android.permission.INTERNET" />
+31-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:34:5-67
+31-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:34:22-64
+32    <uses-permission android:name="android.permission.READ_CONTACTS" />
+32-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:35:5-72
+32-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:35:22-69
+33    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+33-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:36:5-74
+33-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:36:22-71
+34    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
+34-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:37:5-80
+34-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:37:22-77
+35    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+35-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:38:5-71
+35-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:38:22-68
+36    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+36-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:39:5-74
+36-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:39:22-71
+37    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+37-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:40:5-81
+37-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:40:22-78
+38    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+38-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:41:5-76
+38-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:41:22-73
+39
+40    <application
+40-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:43:5-192:19
+41        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+41-->[androidx.core:core:1.8.0] C:\Users\Zhouzy\.gradle\caches\transforms-3\04a55a8205e24ad0aa9345040c025e9d\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+42        android:debuggable="true"
+43        android:extractNativeLibs="true"
+44        android:icon="@drawable/icon_app"
+44-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:45:9-42
+45        android:label="@string/app_name"
+45-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:46:9-41
+46        android:requestLegacyExternalStorage="true"
+46-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:44:9-52
+47        android:testOnly="true" >
+48        <activity
+48-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:48:9-66:20
+49            android:name="net.micode.notes.ui.NotesListActivity"
+49-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:49:13-49
+50            android:configChanges="keyboardHidden|orientation|screenSize"
+50-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:50:13-74
+51            android:exported="true"
+51-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:56:13-36
+52            android:label="@string/app_name"
+52-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:51:13-45
+53            android:launchMode="singleTop"
+53-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:52:13-43
+54            android:theme="@style/NoteTheme"
+54-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:53:13-45
+55            android:uiOptions="splitActionBarWhenNarrow"
+55-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:54:13-57
+56            android:windowSoftInputMode="adjustPan" >
+56-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:55:13-52
+57            <intent-filter>
+57-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:58:13-61:29
+58                <action android:name="android.intent.action.MAIN" />
+58-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:59:17-69
+58-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:59:25-66
+59
+60                <category android:name="android.intent.category.LAUNCHER" />
+60-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:60:17-77
+60-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:60:27-74
+61            </intent-filter>
+62
+63            <meta-data
+63-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:62:13-65:19
+64                android:name="android.app.searchable"
+64-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:63:17-54
+65                android:resource="@xml/searchable" />
+65-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:64:17-51
+66        </activity>
+67        <activity
+67-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:68:9-96:20
+68            android:name="net.micode.notes.ui.NoteEditActivity"
+68-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:69:13-48
+69            android:configChanges="keyboardHidden|orientation|screenSize"
+69-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:70:13-74
+70            android:exported="true"
+70-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:73:13-36
+71            android:launchMode="singleTop"
+71-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:71:13-43
+72            android:theme="@style/NoteTheme" >
+72-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:72:13-45
+73            <intent-filter android:scheme="http" >
+73-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:75:13-80:29
+73-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:75:28-49
+74                <action android:name="android.intent.action.VIEW" />
+74-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:76:17-69
+74-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:76:25-66
+75
+76                <category android:name="android.intent.category.DEFAULT" />
+76-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:77:17-76
+76-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:77:27-73
+77
+78                <data android:mimeType="vnd.android.cursor.item/text_note" />
+78-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:78:17-78
+78-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:78:23-75
+79                <data android:mimeType="vnd.android.cursor.item/call_note" />
+79-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:78:17-78
+79-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:78:23-75
+80            </intent-filter>
+81            <intent-filter>
+81-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:82:13-87:29
+82                <action android:name="android.intent.action.INSERT_OR_EDIT" />
+82-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:83:17-79
+82-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:83:25-76
+83
+84                <category android:name="android.intent.category.DEFAULT" />
+84-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:77:17-76
+84-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:77:27-73
+85
+86                <data android:mimeType="vnd.android.cursor.item/text_note" />
+86-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:78:17-78
+86-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:78:23-75
+87                <data android:mimeType="vnd.android.cursor.item/call_note" />
+87-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:78:17-78
+87-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:78:23-75
+88            </intent-filter>
+89            <intent-filter>
+89-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:89:13-92:29
+90                <action android:name="android.intent.action.SEARCH" />
+90-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:90:17-71
+90-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:90:25-68
+91
+92                <category android:name="android.intent.category.DEFAULT" />
+92-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:77:17-76
+92-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:77:27-73
+93            </intent-filter>
+94
+95            <meta-data
+95-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:62:13-65:19
+96                android:name="android.app.searchable"
+96-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:63:17-54
+97                android:resource="@xml/searchable" />
+97-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:64:17-51
+98        </activity>
+99        <activity
+99-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:97:9-99:40
+100            android:name="net.micode.notes.ui.EditActivity"
+100-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:98:13-44
+101            android:exported="false" />
+101-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:99:13-37
+102        <activity
+102-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:100:9-103:36
+103            android:name="net.micode.notes.ui.AddActivity"
+103-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:101:13-43
+104            android:exported="false"
+104-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:102:13-37
+105            android:label="添加便签" />
+105-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:103:13-33
+106        <activity
+106-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:104:9-107:40
+107            android:name="net.micode.notes.ui.SafeFolderActivity"
+107-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:105:13-50
+108            android:exported="false"
+108-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:107:13-37
+109            android:label="加密便签夹" />
+109-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:106:13-34
+110        <activity
+110-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:108:9-110:40
+111            android:name="net.micode.notes.ui.pwdActivity"
+111-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:109:13-43
+112            android:exported="false" />
+112-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:110:13-37
+113
+114        <provider
+114-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:114:9-117:43
+115            android:name="net.micode.notes.data.NotesProvider"
+115-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:115:13-63
+116            android:authorities="micode_notes"
+116-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:116:13-47
+117            android:multiprocess="true" />
+117-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:117:13-40
+118
+119        <receiver
+119-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:119:9-132:20
+120            android:name="net.micode.notes.widget.NoteWidgetProvider_2x"
+120-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:120:13-57
+121            android:exported="false"
+121-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:122:13-37
+122            android:label="@string/app_widget2x2" >
+122-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:121:13-50
+123            <intent-filter>
+123-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:123:13-127:29
+124                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+124-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:124:17-84
+124-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:124:25-81
+125                <action android:name="android.appwidget.action.APPWIDGET_DELETED" />
+125-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:125:17-85
+125-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:125:25-82
+126                <action android:name="android.intent.action.PRIVACY_MODE_CHANGED" />
+126-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:126:17-85
+126-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:126:25-82
+127            </intent-filter>
+128
+129            <meta-data
+129-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:129:13-131:58
+130                android:name="android.appwidget.provider"
+130-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:130:17-58
+131                android:resource="@xml/widget_2x_info" />
+131-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:131:17-55
+132        </receiver>
+133        <receiver
+133-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:133:9-147:20
+134            android:name="net.micode.notes.widget.NoteWidgetProvider_4x"
+134-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:134:13-57
+135            android:exported="false"
+135-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:136:13-37
+136            android:label="@string/app_widget4x4" >
+136-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:135:13-50
+137            <intent-filter>
+137-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:123:13-127:29
+138                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+138-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:124:17-84
+138-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:124:25-81
+139                <action android:name="android.appwidget.action.APPWIDGET_DELETED" />
+139-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:125:17-85
+139-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:125:25-82
+140                <action android:name="android.intent.action.PRIVACY_MODE_CHANGED" />
+140-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:126:17-85
+140-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:126:25-82
+141            </intent-filter>
+142
+143            <meta-data
+143-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:129:13-131:58
+144                android:name="android.appwidget.provider"
+144-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:130:17-58
+145                android:resource="@xml/widget_4x_info" />
+145-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:131:17-55
+146        </receiver>
+147        <receiver
+147-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:149:9-154:20
+148            android:name="net.micode.notes.ui.AlarmInitReceiver"
+148-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:149:19-55
+149            android:exported="false" >
+149-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:150:13-37
+150            <intent-filter>
+150-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:151:13-153:29
+151                <action android:name="android.intent.action.BOOT_COMPLETED" />
+151-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:152:17-79
+151-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:152:25-76
+152            </intent-filter>
+153        </receiver>
+154        <receiver
+154-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:156:9-159:20
+155            android:name="net.micode.notes.ui.AlarmReceiver"
+155-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:157:13-61
+156            android:process=":remote" >
+156-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:158:13-38
+157        </receiver>
+158
+159        <activity
+159-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:161:9-166:20
+160            android:name="net.micode.notes.ui.AlarmAlertActivity"
+160-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:162:13-50
+161            android:label="@string/app_name"
+161-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:163:13-45
+162            android:launchMode="singleInstance"
+162-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:164:13-48
+163            android:theme="@android:style/Theme.Holo.Wallpaper.NoTitleBar" >
+163-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:165:13-75
+164        </activity>
+165        <activity
+165-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:168:9-173:20
+166            android:name="net.micode.notes.ui.NotesPreferenceActivity"
+166-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:169:13-71
+167            android:label="@string/preferences_title"
+167-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:170:13-54
+168            android:launchMode="singleTop"
+168-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:171:13-43
+169            android:theme="@android:style/Theme.Holo.Light" >
+169-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:172:13-60
+170        </activity>
+171
+172        <service
+172-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:175:9-178:19
+173            android:name="net.micode.notes.gtask.remote.GTaskSyncService"
+173-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:176:13-74
+174            android:exported="false" >
+174-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:177:13-37
+175        </service>
+176
+177        <meta-data
+177-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:180:9-182:52
+178            android:name="android.app.default_searchable"
+178-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:181:13-58
+179            android:value=".ui.NoteEditActivity" />
+179-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:182:13-49
+180
+181        <activity
+181-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:183:9-191:20
+182            android:name="net.micode.notes.ui.SearchableActivity"
+182-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:183:19-72
+183            android:exported="true"
+183-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:185:13-36
+184            android:launchMode="singleTop" >
+184-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:184:13-43
+185            <intent-filter>
+185-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:186:13-188:29
+186                <action android:name="android.intent.action.SEARCH" />
+186-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:90:17-71
+186-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:90:25-68
+187            </intent-filter>
+188
+189            <meta-data
+189-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:62:13-65:19
+190                android:name="android.app.searchable"
+190-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:63:17-54
+191                android:resource="@xml/searchable" />
+191-->G:\codes\MiNotes\app\src\main\AndroidManifest.xml:64:17-51
+192        </activity>
+193
+194        <provider
+194-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zhouzy\.gradle\caches\transforms-3\49e07d1c3ab14f934ac17356918f1263\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:24:9-32:20
+195            android:name="androidx.startup.InitializationProvider"
+195-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zhouzy\.gradle\caches\transforms-3\49e07d1c3ab14f934ac17356918f1263\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:25:13-67
+196            android:authorities="net.micode.notes.androidx-startup"
+196-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zhouzy\.gradle\caches\transforms-3\49e07d1c3ab14f934ac17356918f1263\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:26:13-68
+197            android:exported="false" >
+197-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zhouzy\.gradle\caches\transforms-3\49e07d1c3ab14f934ac17356918f1263\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:27:13-37
+198            <meta-data
+198-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zhouzy\.gradle\caches\transforms-3\49e07d1c3ab14f934ac17356918f1263\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+199                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+199-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zhouzy\.gradle\caches\transforms-3\49e07d1c3ab14f934ac17356918f1263\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+200                android:value="androidx.startup" />
+200-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zhouzy\.gradle\caches\transforms-3\49e07d1c3ab14f934ac17356918f1263\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+201        </provider>
+202
+203        <receiver
+203-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zhouzy\.gradle\caches\transforms-3\49e07d1c3ab14f934ac17356918f1263\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+204            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+204-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zhouzy\.gradle\caches\transforms-3\49e07d1c3ab14f934ac17356918f1263\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+205            android:directBootAware="false"
+205-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zhouzy\.gradle\caches\transforms-3\49e07d1c3ab14f934ac17356918f1263\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+206            android:enabled="true"
+206-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zhouzy\.gradle\caches\transforms-3\49e07d1c3ab14f934ac17356918f1263\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+207            android:exported="true"
+207-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zhouzy\.gradle\caches\transforms-3\49e07d1c3ab14f934ac17356918f1263\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+208            android:permission="android.permission.DUMP" >
+208-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zhouzy\.gradle\caches\transforms-3\49e07d1c3ab14f934ac17356918f1263\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+209            <intent-filter>
+209-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zhouzy\.gradle\caches\transforms-3\49e07d1c3ab14f934ac17356918f1263\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+210                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+210-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zhouzy\.gradle\caches\transforms-3\49e07d1c3ab14f934ac17356918f1263\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+210-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zhouzy\.gradle\caches\transforms-3\49e07d1c3ab14f934ac17356918f1263\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+211            </intent-filter>
+212            <intent-filter>
+212-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zhouzy\.gradle\caches\transforms-3\49e07d1c3ab14f934ac17356918f1263\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+213                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+213-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zhouzy\.gradle\caches\transforms-3\49e07d1c3ab14f934ac17356918f1263\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+213-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zhouzy\.gradle\caches\transforms-3\49e07d1c3ab14f934ac17356918f1263\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+214            </intent-filter>
+215            <intent-filter>
+215-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zhouzy\.gradle\caches\transforms-3\49e07d1c3ab14f934ac17356918f1263\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+216                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+216-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zhouzy\.gradle\caches\transforms-3\49e07d1c3ab14f934ac17356918f1263\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+216-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zhouzy\.gradle\caches\transforms-3\49e07d1c3ab14f934ac17356918f1263\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+217            </intent-filter>
+218            <intent-filter>
+218-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zhouzy\.gradle\caches\transforms-3\49e07d1c3ab14f934ac17356918f1263\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+219                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+219-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zhouzy\.gradle\caches\transforms-3\49e07d1c3ab14f934ac17356918f1263\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+219-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zhouzy\.gradle\caches\transforms-3\49e07d1c3ab14f934ac17356918f1263\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+220            </intent-filter>
+221        </receiver>
+222    </application>
+223
+224</manifest>

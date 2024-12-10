@@ -1,0 +1,39 @@
+
+t
+java:S22930"YReplace the type specification in this constructor call with the diamond operator ("<>").(àÉ™âùÿÿÿÿ
+o
+java:S2293]"YReplace the type specification in this constructor call with the diamond operator ("<>").(œ€ÄÑ
+o
+java:S2293m"YReplace the type specification in this constructor call with the diamond operator ("<>").(¾Èª
+J
+java:S1066U"/Merge this if statement with the enclosing one.(ßÚ§µúÿÿÿÿ
+ˆ
+java:S1319\"mThe return type of this method should be an interface such as "Set" rather than the implementation "HashSet".(“Ÿóßûÿÿÿÿ
+ˆ
+java:S1319l"mThe return type of this method should be an interface such as "Set" rather than the implementation "HashSet".(•Ñòóıÿÿÿÿ
+j
+java:S1104*"TMake widgetId a static final constant or non-public and provide accessors if needed.(åÇ
+q
+java:S1104+"VMake widgetType a static final constant or non-public and provide accessors if needed.(öæ¼¬şÿÿÿÿ
+C
+java:S5411_"(Use a primitive boolean expression here.(É¯ÀĞüÿÿÿÿ
+C
+java:S5411o"(Use a primitive boolean expression here.(É¯ÀĞüÿÿÿÿ
+D
+java:S5411‹"(Use a primitive boolean expression here.( „Œ¢ùÿÿÿÿ
+7
+java:S1116,"Remove this empty statement.(ôŸìúÿÿÿÿ
+D
+java:S1874/".Remove this use of "<init>"; it is deprecated.(ÌÖçü
+J
+java:S2864^"4Iterate over the "entrySet" instead of the "keySet".(à¨·â
+B
+java:S1125_"'Remove the unnecessary boolean literal.(É¯ÀĞüÿÿÿÿ
+J
+java:S2864n"4Iterate over the "entrySet" instead of the "keySet".(à¨·â
+B
+java:S1125o"'Remove the unnecessary boolean literal.(É¯ÀĞüÿÿÿÿ
+A
+java:S1168|"+Return an empty collection instead of null.(¥¹ï
+C
+java:S1125‹"'Remove the unnecessary boolean literal.( „Œ¢ùÿÿÿÿ

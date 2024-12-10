@@ -1,0 +1,19 @@
+
+r	java:S116w"VRename this field "TEXT_FORMAT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ñ›–¼8½÷ÚÀÅ1
+p
+java:S3776¨"RRefactor this method to reduce its Cognitive Complexity from 27 to the 15 allowed.(œÃÁí8Ã÷ÚÀÅ1
+o
+java:S3776İ"RRefactor this method to reduce its Cognitive Complexity from 23 to the 15 allowed.(ì´ê8Ç÷ÚÀÅ1
+c
+java:S2147°"ECombine this catch with the one at line 301, which has the same body.(ßÈ´8Ì÷ÚÀÅ1
+M
+java:S2093ª"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ8Í÷ÚÀÅ1
+`
+java:S1874À"CRemove this use of "getExternalStorageDirectory"; it is deprecated.(î¥‹?8Ï÷ÚÀÅ1
+c
+java:S2147Ó"ECombine this catch with the one at line 337, which has the same body.(ï­£Ä8Ñ÷ÚÀÅ1
+d	java:S899Î"BDo something with the "boolean" value returned by "createNewFile".(Ğ’Íùÿÿÿÿ8Ñ÷ÚÀÅ1
+F
+java:S3398¾"#Move this method into "TextExport".(¨ä¿ÿıÿÿÿÿ8Ò÷ÚÀÅ1
+@
+java:S3398H"#Move this method into "TextExport".(…´‹8Ò÷ÚÀÅ1

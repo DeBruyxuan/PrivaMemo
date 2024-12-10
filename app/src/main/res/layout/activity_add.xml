@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.AddActivity">
+
+    <EditText
+        android:id="@+id/sf_et_1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@drawable/edit_yellow"
+        android:gravity="top"
+        android:padding="10dp"
+        android:maxLength="300"
+        android:layout_weight="1"
+        android:textColor="#070707"/>
+
+    <Button
+        android:id="@+id/sf_btn_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:textSize="25sp"
+        android:text="添加便签"
+        android:onClick="add"
+        />
+</LinearLayout>

@@ -1,0 +1,22 @@
+
+z
+java:S1450"_Remove the "mContentResolver" field and declare it as a local variable in the relevant methods.(ÿÂéÖüÿÿÿÿ
+k
+java:S1450*"URemove the "mState" field and declare it as a local variable in the relevant methods.(ÄÄåê
+t
+java:S1450"^Remove the "msearchListView" field and declare it as a local variable in the relevant methods.(õÎş—
+7
+java:S1116#"Remove this empty statement.(ôŸìúÿÿÿÿ
+O
+java:S1854G"9Remove this useless assignment to local variable "query".(›¬Ú
+@
+java:S1481G"*Remove this unused "query" local variable.(›¬Ú
+R	java:S125"<This block of commented-out lines of code should be removed.(Ì„ÿÒ
+G
+java:S3398›"0Move this method into "OnListItemClickListener".(‘ğğ¡
+G
+java:S3398£"0Move this method into "OnListItemClickListener".(üÎş
+O
+java:S1068"4Remove this unused "mContentResolver" private field.(ÿÂéÖüÿÿÿÿ
+@
+java:S1068*"*Remove this unused "mState" private field.(ÄÄåê

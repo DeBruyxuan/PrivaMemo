@@ -1,0 +1,9 @@
+
+r	java:S1174"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰åŠ¿ùÿÿÿÿ8©Ô•èÇ1
+>
+java:S1604/"(Make this anonymous inner class a lambda(„×³£
+n
+java:S1104#"SMake mBtnpwd a static final constant or non-public and provide accessors if needed.(Î’ìûÿÿÿÿ
+g
+java:S1104$"RMake mEtpwd a static final constant or non-public and provide accessors if needed.(å¥¤n
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(õ¿Ãé

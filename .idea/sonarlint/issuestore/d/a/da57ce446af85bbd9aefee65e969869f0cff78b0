@@ -1,0 +1,59 @@
+
+?
+java:S1604†"(Make this anonymous inner class a lambda(§¤É
+?
+java:S1604¤"(Make this anonymous inner class a lambda(ğåÜ¨
+?
+java:S1604«"(Make this anonymous inner class a lambda(ğåÜ¨
+?
+java:S1604ç"(Make this anonymous inner class a lambda(Î¬¯”
+?
+java:S1604ô"(Make this anonymous inner class a lambda(³Ú…Î
+?
+java:S1604‘"(Make this anonymous inner class a lambda(ôéÿ
+?
+java:S1604²"(Make this anonymous inner class a lambda(ÉãÃ®
+?
+java:S1604Í"(Make this anonymous inner class a lambda(ÉãÃ®
+g
+java:S1301ú"KReplace this "switch" statement by "if" statements to increase readability.(øå´¡ÿÿÿÿÿ
+U
+java:S18743":Remove this use of "PreferenceActivity"; it is deprecated.(ç½Úàøÿÿÿÿ
+P
+java:S1874@":Remove this use of "PreferenceCategory"; it is deprecated.(ÜÎ˜Ó
+`
+java:S1874I"JDon't override a deprecated method or explicitly mark it as "@Deprecated".(ÍÎ˜Ç
+K
+java:S1874J"0Remove this use of "onCreate"; it is deprecated.(È¢Õ–úÿÿÿÿ
+P
+java:S1874P":Remove this use of "PreferenceCategory"; it is deprecated.(‰´Òø
+L
+java:S1874P"6Remove this use of "findPreference"; it is deprecated.(‰´Òø
+I
+java:S1874X"3Remove this use of "getListView"; it is deprecated.(ôØ¯é
+h
+java:S3776\"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(Ù«µ§
+`
+java:S1874x"JDon't override a deprecated method or explicitly mark it as "@Deprecated".(ÍÙ÷¢
+G
+java:S1874|"1Remove this use of "onDestroy"; it is deprecated.(ÍÊ·´
+H
+java:S1874€"1Remove this use of "removeAll"; it is deprecated.(€ûœ
+N
+java:S1874‚"2Remove this use of "Preference"; it is deprecated.(ƒù¬ ıÿÿÿÿ
+N
+java:S1874‚"2Remove this use of "Preference"; it is deprecated.(ƒù¬ ıÿÿÿÿ
+G
+java:S1874„"0Remove this use of "setTitle"; it is deprecated.(ÿœ‚
+N
+java:S1874…"2Remove this use of "setSummary"; it is deprecated.(÷ÒÙİûÿÿÿÿ
+[
+java:S1874†"DRemove this use of "setOnPreferenceClickListener"; it is deprecated.(§¤É
+N
+java:S1874‡"2Remove this use of "Preference"; it is deprecated.(¶®è‰øÿÿÿÿ
+Q
+java:S1874š"5Remove this use of "addPreference"; it is deprecated.(èÙ†İüÿÿÿÿ
+a
+java:S1874ù"JDon't override a deprecated method or explicitly mark it as "@Deprecated".(ñ”Ò
+Q
+java:S1161ù":Add the "@Override" annotation above this method signature(ñ”Ò

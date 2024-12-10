@@ -1,0 +1,40 @@
+
+m
+java:S1192ƒ"JDefine a constant instead of duplicating this literal "File Size" 4 times.(¤şÅ£üÿÿÿÿ8‰Öú¡Æ1
+i
+java:S1192ƒ"FDefine a constant instead of duplicating this literal "Size " 4 times.(¤şÅ£üÿÿÿÿ8‰Öú¡Æ1
+^
+java:S49732"<Strings and Boxed types should be compared using "equals()".(¢„şÿÿÿÿ8ŠÖú¡Æ1
+q
+java:S2095÷"NUse try-with-resources or close this "FileOutputStream" in a "finally" clause.(°§¿ƒøÿÿÿÿ8™×ú¡Æ1
+g
+java:S2095ö"IUse try-with-resources or close this "InputStream" in a "finally" clause.(ª¦Ò8™×ú¡Æ1
+q
+java:S2095"NUse try-with-resources or close this "FileOutputStream" in a "finally" clause.(°§¿ƒøÿÿÿÿ8™×ú¡Æ1
+g
+java:S2095"IUse try-with-resources or close this "InputStream" in a "finally" clause.(ª¦Ò8™×ú¡Æ1
+\
+java:S1118":Add a private constructor to hide the implicit public one.(Ó™€¸ÿÿÿÿÿ8œ×ú¡Æ1
+n
+java:S3776$"RRefactor this method to reduce its Cognitive Complexity from 75 to the 15 allowed.(¢‰é[8×ú¡Æ1
+F
+java:S1481/")Remove this unused "type" local variable.(ÍİÔ¼8 ×ú¡Æ1
+]	java:S125Y"<This block of commented-out lines of code should be removed.(©‡Æûÿÿÿÿ8¡×ú¡Æ1
+M
+java:S1481g"+Remove this unused "isOreo" local variable.(ÇÍóãÿÿÿÿÿ8¢×ú¡Æ1
+Y	java:S125 "<This block of commented-out lines of code should be removed.(Æš„8£×ú¡Æ1
+^	java:S125¢"<This block of commented-out lines of code should be removed.(˜¢½Ãùÿÿÿÿ8£×ú¡Æ1
+D
+java:S1075Æ"&Remove this hard-coded path-delimiter.(ü¾ù¼8¥×ú¡Æ1
+V
+java:S1854ó"8Remove this useless assignment to local variable "size".(è•Âä8¦×ú¡Æ1
+G
+java:S1481ó")Remove this unused "size" local variable.(è•Âä8§×ú¡Æ1
+^	java:S125ü"<This block of commented-out lines of code should be removed.(íïğÔşÿÿÿÿ8¨×ú¡Æ1
+V
+java:S1854š"8Remove this useless assignment to local variable "size".(è•Âä8©×ú¡Æ1
+G
+java:S1481š")Remove this unused "size" local variable.(è•Âä8ª×ú¡Æ1
+^	java:S125£"<This block of commented-out lines of code should be removed.(íïğÔşÿÿÿÿ8ª×ú¡Æ1
+ã
+java:S6541$"ÆA "Brain Method" was detected. Refactor it to reduce at least one of the following metrics: LOC from 108 to 64, Complexity from 26 to 14, Nesting Level from 6 to 2, Number of Variables from 24 to 6.(¢‰é[8®×ú¡Æ1

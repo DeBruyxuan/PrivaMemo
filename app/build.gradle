@@ -1,0 +1,42 @@
+apply plugin: 'com.android.application'
+
+android {
+    namespace "net.micode.notes"
+
+    compileSdkVersion 34
+    buildToolsVersion '34.0.0'
+    useLibrary 'org.apache.http.legacy'
+    defaultConfig {
+        applicationId "net.micode.notes"
+        minSdkVersion 14
+        //noinspection ExpiredTargetSdkVersion
+        targetSdkVersion 34
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+
+}
+dependencies {
+    implementation "androidx.activity:activity:1.8.1"
+    implementation(platform("org.jetbrains.kotlin:kotlin-bom:1.8.0"))
+    implementation 'com.android.support:appcompat-v7:34.0.0'
+    implementation 'com.android.support.constraint:constraint-layout:2.0.4'
+    implementation 'androidx.recyclerview:recyclerview:1.2.1'
+
+
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'com.google.android.material:material:1.2.1'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+    testImplementation 'junit:junit:4.+'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.2'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+//    implementation "org.jetbrains.kotlin:kotlin-stdlib:1.8.22"
+//    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4"
+//    implementation "com.google.guava:listenablefuture:1.0"
+}
+

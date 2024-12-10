@@ -1,0 +1,12 @@
+
+K
+java:S1604ƒ"(Make this anonymous inner class a lambda(ÉƒÔúÿÿÿÿ8¼—ğèÇ1
+K
+java:S1604"(Make this anonymous inner class a lambda(§Â«øÿÿÿÿ8¼—ğèÇ1
+i	java:S100c"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷şÖm8œ˜ğèÇ1
+G
+java:S1172c"+Remove this unused method parameter "view".(÷şÖm8œ˜ğèÇ1
+M
+java:S1068$"+Remove this unused "mBtnNew" private field.(¹”¸›ÿÿÿÿÿ8¨˜ğèÇ1
+[
+java:S1144W"9Remove this unused private "getCurrentTimeFormat" method.(àïæƒşÿÿÿÿ8¨˜ğèÇ1

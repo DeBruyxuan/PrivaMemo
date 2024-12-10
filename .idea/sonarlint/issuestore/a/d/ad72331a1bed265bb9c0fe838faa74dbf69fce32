@@ -1,0 +1,99 @@
+
+w
+java:S2293‹"YReplace the type specification in this constructor call with the diamond operator ("<>").(è‰¥ğ8–ß¨ìÇ1
+F
+java:S1604•"(Make this anonymous inner class a lambda(ÂãËÈ8›ß¨ìÇ1
+E
+java:S1604"(Make this anonymous inner class a lambda(—ÌºV8›ß¨ìÇ1
+F
+java:S1604Ô"(Make this anonymous inner class a lambda(Î¬¯”8›ß¨ìÇ1
+F
+java:S1604È"(Make this anonymous inner class a lambda(¿Ü´ã8œß¨ìÇ1
+K
+java:S1604İ"(Make this anonymous inner class a lambda(ˆĞïøÿÿÿÿ8œß¨ìÇ1
+F
+java:S1604å"(Make this anonymous inner class a lambda(øÄì‡8œß¨ìÇ1
+F
+java:S1604Ê"(Make this anonymous inner class a lambda(Û±¼ 8œß¨ìÇ1
+F
+java:S1604í"(Make this anonymous inner class a lambda(Î¬¯”8œß¨ìÇ1
+p
+java:S1104‰"RMake mBtnsf a static final constant or non-public and provide accessors if needed.(‡Í‰ß8¥ß¨ìÇ1
+>
+java:S1116`"Remove this empty statement.(ôŸìúÿÿÿÿ8Ìá¨ìÇ1
+h
+java:S1124‡"EReorder the modifiers to comply with the Java Language Specification.(¹úæµûÿÿÿÿ8Îá¨ìÇ1
+b
+java:S1124ˆ"EReorder the modifiers to comply with the Java Language Specification.(ìÑ¾k8Îá¨ìÇ1
+u
+java:S3776ª"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(áé–Şÿÿÿÿÿ8Şá¨ìÇ1
+9
+java:S3626»"Remove this redundant jump.(ûÁİ…8Şá¨ìÇ1
+9
+java:S3626¿"Remove this redundant jump.(ûÁİ…8ßá¨ìÇ1
+9
+java:S3626Ó"Remove this redundant jump.(ûÁİ…8ßá¨ìÇ1
+W
+java:S1874«"9Remove this use of "PreferenceManager"; it is deprecated.(Â­©Ğ8àá¨ìÇ1
+a
+java:S1874«"CRemove this use of "getDefaultSharedPreferences"; it is deprecated.(Â­©Ğ8àá¨ìÇ1
+U
+java:S1135Å"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ8èá¨ìÇ1
+M
+java:S2093¯"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ8èá¨ìÇ1
+v
+java:S1450÷"XRemove the "mMoveMenu" field and declare it as a local variable in the relevant methods.(¢—ò8øá¨ìÇ1
+u
+java:S3252ô"RUse static access with "android.widget.AbsListView" for "MultiChoiceModeListener".(¦Ûî„úÿÿÿÿ8øá¨ìÇ1
+U
+java:S1135¬"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ8Šâ¨ìÇ1
+U
+java:S1135±"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ8Šâ¨ìÇ1
+\
+java:S1874ê"9Remove this use of "getDefaultDisplay"; it is deprecated.(Ä¸¬Ìıÿÿÿÿ8â¨ìÇ1
+T
+java:S1874ë"1Remove this use of "getHeight"; it is deprecated.(·¡ªÃıÿÿÿÿ8â¨ìÇ1
+?
+java:S1116¡"Remove this empty statement.(ôŸìúÿÿÿÿ8«â¨ìÇ1
+p
+java:S3776à"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(ãìîí8Ââ¨ìÇ1
+J
+java:S1874á".Remove this use of "<init>"; it is deprecated.(ıî?8Ãâ¨ìÇ1
+F	java:S108ç")Either remove or fill this block of code.(ûÊ¥8Æâ¨ìÇ1
+h
+java:S1874÷"JDon't override a deprecated method or explicitly mark it as "@Deprecated".(§Í¿Â8Èâ¨ìÇ1
+R
+java:S1874‚"/Remove this use of "execute"; it is deprecated.( å«ûÿÿÿÿ8Ìâ¨ìÇ1
+Z
+java:S1874Á"7Remove this use of "toggleSoftInput"; it is deprecated.(© …áúÿÿÿÿ8Øâ¨ìÇ1
+V
+java:S1874Á"3Remove this use of "SHOW_FORCED"; it is deprecated.(© …áúÿÿÿÿ8Øâ¨ìÇ1
+o
+java:S3776Ê"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(ÅôÉ#8Üâ¨ìÇ1
+U
+java:S1135Œ"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ8õâ¨ìÇ1
+e
+java:S1126‘"BReplace this if-then-else statement by a single method invocation.(ç’¦ıÿÿÿÿ8õâ¨ìÇ1
+U
+java:S1135™"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ8øâ¨ìÇ1
+m
+java:S1874 "JDon't override a deprecated method or explicitly mark it as "@Deprecated".(œƒƒ©ùÿÿÿÿ8ùâ¨ìÇ1
+X
+java:S1874°"5Remove this use of "onBackPressed"; it is deprecated.(‘Ñàÿÿÿÿÿ8üâ¨ìÇ1
+^	java:S125®"<This block of commented-out lines of code should be removed.(òêÔ½úÿÿÿÿ8µã¨ìÇ1
+Q
+java:S1874¹".Remove this use of "<init>"; it is deprecated.(Ğ§ğÛıÿÿÿÿ8ºã¨ìÇ1
+m
+java:S1874Á"JDon't override a deprecated method or explicitly mark it as "@Deprecated".(÷á‰½ûÿÿÿÿ8½ã¨ìÇ1
+R
+java:S1874Ş"/Remove this use of "execute"; it is deprecated.( å«ûÿÿÿÿ8Åã¨ìÇ1
+o
+java:S3776í"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(ôŒùb8Ëã¨ìÇ1
+R
+java:S3398Ä"/Move this method into "BackgroundQueryHandler".(—÷õüÿÿÿÿ8Øã¨ìÇ1
+C
+java:S3398à"%Move this method into "ModeCallback".(ãìîí8Øã¨ìÇ1
+H
+java:S3398”"%Move this method into "ModeCallback".(“ğÉçıÿÿÿÿ8Øã¨ìÇ1
+N
+java:S3398 "0Move this method into "OnListItemClickListener".(‘ğğ¡8×ã¨ìÇ1

@@ -1,0 +1,18 @@
+
+E
+java:S1604w"(Make this anonymous inner class a lambda(ÉãÃ®8÷ãåÆ1
+]	java:S125"<This block of commented-out lines of code should be removed.(Í›¸ıÿÿÿÿ8ÿãåÆ1
+‡
+java:S3008""eRename this field "GTASK_SYNC_NOTIFICATION_ID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ëíÅÍúÿÿÿÿ8ÿãåÆ1
+S
+java:S1874 "1Remove this use of "AsyncTask"; it is deprecated.(¯ÚÔËúÿÿÿÿ8äåÆ1
+U
+java:S3878="8Remove this array creation and simply pass the elements.(‘Àß8†äåÆ1
+T
+java:S1874="7Remove this use of "publishProgress"; it is deprecated.(‘Àß8†äåÆ1
+P
+java:S1874N".Remove this use of "<init>"; it is deprecated.(Üƒ÷ıùÿÿÿÿ8ğÊåÆ1
+l
+java:S1874a"JDon't override a deprecated method or explicitly mark it as "@Deprecated".(Ã«•·ÿÿÿÿÿ8•äåÆ1
+l
+java:S1874i"JDon't override a deprecated method or explicitly mark it as "@Deprecated".(÷á‰½ûÿÿÿÿ8–äåÆ1

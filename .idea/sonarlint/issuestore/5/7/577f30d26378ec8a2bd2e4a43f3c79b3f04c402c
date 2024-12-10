@@ -1,0 +1,93 @@
+
+|
+java:S2293€"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÑÓ¥üÿÿÿÿ8õÇ•ÛÆ1
+|
+java:S2293‰"YReplace the type specification in this constructor call with the diamond operator ("<>").(®ú÷õşÿÿÿÿ8õÇ•ÛÆ1
+|
+java:S2293’"YReplace the type specification in this constructor call with the diamond operator ("<>").(êİıÂşÿÿÿÿ8õÇ•ÛÆ1
+w
+java:S2293š"YReplace the type specification in this constructor call with the diamond operator ("<>").(À—’¢8õÇ•ÛÆ1
+w
+java:S2293ÿ"YReplace the type specification in this constructor call with the diamond operator ("<>").(è‰¥ğ8öÇ•ÛÆ1
+n	java:S117Ñ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨Å£Ğ8÷Ç•ÛÆ1
+n	java:S117Å"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(çïş¢8÷Ç•ÛÆ1
+s	java:S117ğ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÄÀ´Àúÿÿÿÿ8÷Ç•ÛÆ1
+n	java:S117Ã"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡ø¡Œ8øÇ•ÛÆ1
+n	java:S117Ë"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ª€üÖ8øÇ•ÛÆ1
+F
+java:S1604Ã"(Make this anonymous inner class a lambda(Î¬¯”8øÇ•ÛÆ1
+F
+java:S1604â"(Make this anonymous inner class a lambda(¨›Ì÷8øÇ•ÛÆ1
+F
+java:S1604"(Make this anonymous inner class a lambda(××ß’8øÇ•ÛÆ1
+n
+java:S1301¥"KReplace this "switch" statement by "if" statements to increase readability.(×ö³–úÿÿÿÿ8øÇ•ÛÆ1
+x
+java:S1104w"VMake tvModified a static final constant or non-public and provide accessors if needed.(ƒëÔ£ÿÿÿÿÿ8ùÇ•ÛÆ1
+y
+java:S1104y"WMake ivAlertIcon a static final constant or non-public and provide accessors if needed.(ªà¶±ûÿÿÿÿ8ùÇ•ÛÆ1
+y
+java:S1104{"WMake tvAlertDate a static final constant or non-public and provide accessors if needed.(“²Öúÿÿÿÿ8ùÇ•ÛÆ1
+z
+java:S1104}"XMake ibSetBgColor a static final constant or non-public and provide accessors if needed.(ıãä¬üÿÿÿÿ8ùÇ•ÛÆ1
+O
+java:S1153¨"1Directly append the argument of String.valueOf().(Ê—ı8ıÇ•ÛÆ1
+z	java:S116Â"XRename this field "PHOTO_REQUEST" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÃÆŞõüÿÿÿÿ8ÃÈ•ÛÆ1
+D
+java:S1170Â"!Make this final field static too.(ÃÆŞõüÿÿÿÿ8ÄÈ•ÛÆ1
+u
+java:S1450À"WRemove the "mPattern" field and declare it as a local variable in the relevant methods.(©´ÖÛ8ÆÈ•ÛÆ1
+Y	java:S125Û"<This block of commented-out lines of code should be removed.(ôÀÅœ8ÑÈ•ÛÆ1
+P
+java:S1874á"-Remove this use of "toURI"; it is deprecated.(ÙÖ¹ƒşÿÿÿÿ8ÒÈ•ÛÆ1
+F
+java:S1185è"(Remove this method to simply inherit it.(ÍÙ÷¢8ÒÈ•ÛÆ1
+E
+java:S1185í"(Remove this method to simply inherit it.(–Í…;8ÒÈ•ÛÆ1
+u
+java:S3776‹"RRefactor this method to reduce its Cognitive Complexity from 26 to the 15 allowed.(İ¨Á±øÿÿÿÿ8ÔÈ•ÛÆ1
+^
+java:S1874­"@Remove this use of "SOFT_INPUT_ADJUST_RESIZE"; it is deprecated.(Ñ¯”8ÖÈ•ÛÆ1
+c
+java:S1874Ó"@Remove this use of "SOFT_INPUT_ADJUST_RESIZE"; it is deprecated.(Ò£ú¿ÿÿÿÿÿ8ØÈ•ÛÆ1
+W
+java:S1874ç"9Remove this use of "setTextAppearance"; it is deprecated.(¬Ñõø8ÚÈ•ÛÆ1
+R
+java:S2864î"4Iterate over the "entrySet" instead of the "keySet".(­Ô‡ï8ÛÈ•ÛÆ1
+?
+java:S1116"Remove this empty statement.(ôŸìúÿÿÿÿ8İÈ•ÛÆ1
+^	java:S125“"<This block of commented-out lines of code should be removed.(Ç†ÛÁıÿÿÿÿ8ŞÈ•ÛÆ1
+X	java:S125£"<This block of commented-out lines of code should be removed.(”À,8ŞÈ•ÛÆ1
+^	java:S125³"<This block of commented-out lines of code should be removed.(øÆ¯©ûÿÿÿÿ8àÈ•ÛÆ1
+^	java:S125Ã"<This block of commented-out lines of code should be removed.(±ì„şÿÿÿÿ8áÈ•ÛÆ1
+p
+java:S3252î"MUse static access with "android.text.Spanned" for "SPAN_EXCLUSIVE_EXCLUSIVE".(ˆ†Îúúÿÿÿÿ8ãÈ•ÛÆ1
+_
+java:S1126 "AReplace this if-then-else statement by a single return statement.(®ÎÚÉ8æÈ•ÛÆ1
+?
+java:S1116½"Remove this empty statement.(ôŸìúÿÿÿÿ8éÈ•ÛÆ1
+W
+java:S1874¾"9Remove this use of "PreferenceManager"; it is deprecated.(ª¦úÅ8éÈ•ÛÆ1
+a
+java:S1874¾"CRemove this use of "getDefaultSharedPreferences"; it is deprecated.(ª¦úÅ8éÈ•ÛÆ1
+\
+java:S1874ü"9Remove this use of "setTextAppearance"; it is deprecated.(ÑëÊäüÿÿÿÿ8íÈ•ÛÆ1
+m
+java:S1874„"JDon't override a deprecated method or explicitly mark it as "@Deprecated".(œƒƒ©ùÿÿÿÿ8íÈ•ÛÆ1
+X
+java:S1874Š"5Remove this use of "onBackPressed"; it is deprecated.(‘Ñàÿÿÿÿÿ8îÈ•ÛÆ1
+N
+java:S1874"0Remove this use of "getColor"; it is deprecated.(è¤ÔÃ8€É•ÛÆ1
+k
+java:S3252ƒ"MUse static access with "android.text.Spanned" for "SPAN_INCLUSIVE_EXCLUSIVE".(ŸÍÃó8É•ÛÆ1
+\
+java:S1874"9Remove this use of "setTextAppearance"; it is deprecated.(Ùú˜Êøÿÿÿÿ8‚É•ÛÆ1
+[
+java:S1874ü"=Remove this use of "EXTRA_SHORTCUT_INTENT"; it is deprecated.(·Ã°Ÿ8É•ÛÆ1
+Y
+java:S1874ı";Remove this use of "EXTRA_SHORTCUT_NAME"; it is deprecated.(ÒÀ‘ç8É•ÛÆ1
+b
+java:S1874ÿ"DRemove this use of "EXTRA_SHORTCUT_ICON_RESOURCE"; it is deprecated.(§éÇ¾8É•ÛÆ1
+Y	java:S125À"<This block of commented-out lines of code should be removed.(ó®Ä„8Åà¹ÛÆ1
+j
+java:S3252Æ"MUse static access with "android.text.Spanned" for "SPAN_EXCLUSIVE_EXCLUSIVE".(şà¦T8µÉ•ÛÆ1

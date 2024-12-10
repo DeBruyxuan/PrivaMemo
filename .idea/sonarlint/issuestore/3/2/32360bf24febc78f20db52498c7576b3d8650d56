@@ -1,0 +1,33 @@
+
+t
+java:S22932"YReplace the type specification in this constructor call with the diamond operator ("<>").(áºÐ»ûÿÿÿÿ
+t
+java:S2293Z"YReplace the type specification in this constructor call with the diamond operator ("<>").(áºÐ»ûÿÿÿÿ
+u
+java:S2293Ñ"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÛÂª¡úÿÿÿÿ
+b
+java:S1192D"GDefine a constant instead of duplicating this literal "%s: %s" 4 times.(ÇÇ÷«ùÿÿÿÿ
+c
+java:S1192x"HDefine a constant instead of duplicating this literal "=? AND " 4 times.(„¼¹úÿÿÿÿ
+‰
+java:S1319Ç"mThe return type of this method should be an interface such as "Set" rather than the implementation "HashSet".(ÛëÈðýÿÿÿÿ
+S
+java:S2589>"8Remove this expression which always evaluates to "false"(ÎŽŽéûÿÿÿÿ
+S
+java:S2589e"8Remove this expression which always evaluates to "false"(ÎŽŽéûÿÿÿÿ
+U
+java:S1118&":Add a private constructor to hide the implicit public one.(³¡¸ÿÿÿÿÿ
+T
+java:S1155-">Use isEmpty() to check whether the collection is empty or not.(´¤”Ó
+Z
+java:S2147E"DCombine this catch with the one at line 67, which has the same body.(æš©›
+[
+java:S2147l"ECombine this catch with the one at line 106, which has the same body.(æš©›
+k
+java:S3252å"OUse static access with "net.micode.notes.data.Notes$DataColumns" for "NOTE_ID".(ž“ñ§ûÿÿÿÿ
+m
+java:S3252å"QUse static access with "net.micode.notes.data.Notes$DataColumns" for "MIME_TYPE".(ž“ñ§ûÿÿÿÿ
+f
+java:S3252÷"OUse static access with "net.micode.notes.data.Notes$DataColumns" for "NOTE_ID".(ýÊ¹à
+m
+java:S3252ø"QUse static access with "net.micode.notes.data.Notes$DataColumns" for "MIME_TYPE".(±ðŒ“úÿÿÿÿ
