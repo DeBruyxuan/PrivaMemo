@@ -2,7 +2,9 @@
 
 ## 介绍
 
-本项目ChatNotes是一款基于开源软件小米便签MiNote（https://github.com/MiCode/Notes）开发的便签软件。在原有的基础上为用户提供更为简洁、安全、方便的便签服务。
+本项目ChatNotes是一款基于开源软件小米便签MiNote：https://github.com/MiCode/Notes
+
+开发的便签软件。在原有的基础上为用户提供更为简洁、安全、方便的便签服务。
 
 ## 设计亮点
 
@@ -26,3 +28,4 @@ ChatNotes新增安全文件夹功能，允许用户将私密便签或备忘录�
 
 ## 使用演示
 
+演示视频见  ./ChatNotes部分功能演示.mp4
