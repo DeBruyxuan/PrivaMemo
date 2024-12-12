@@ -19,6 +19,7 @@ package net.micode.notes.ui;
 import java.text.DateFormatSymbols;
 import java.util.Calendar;
 
+
 import net.micode.notes.R;
 
 
@@ -31,6 +32,7 @@ import android.widget.NumberPicker;
 public class DateTimePicker extends FrameLayout {
 
     private static final boolean DEFAULT_ENABLE_STATE = true;
+
 
     private static final int HOURS_IN_HALF_DAY = 12;
     private static final int HOURS_IN_ALL_DAY = 24;
@@ -70,6 +72,7 @@ public class DateTimePicker extends FrameLayout {
             mDate.add(Calendar.DAY_OF_YEAR, newVal - oldVal);
             updateDateControl();
             onDateTimeChanged();
+            
         }
     };
 
