@@ -35,6 +35,7 @@ public class SafeFolderActivity extends Activity {
     private RecyclerView mRecyclerView;
     private Button mBtnNew;
     private List<Note> mNotes;
+
     private MyAdapter mMyAdapter;
 
     private NoteDbOpenHelper mNoteDbOpenHelper;
@@ -104,6 +105,7 @@ public class SafeFolderActivity extends Activity {
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
+
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.menu_change_password, menu);
         return true;
@@ -123,6 +125,7 @@ public class SafeFolderActivity extends Activity {
     private void showChangePasswordDialog() {
         LayoutInflater inflater = LayoutInflater.from(this);
         View view = inflater.inflate(R.layout.dialog_change_password, null);
+
         EditText newPasswordInput = view.findViewById(R.id.et_new_password);
 
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
@@ -147,6 +150,7 @@ public class SafeFolderActivity extends Activity {
             }
         });
 
+        
         AlertDialog dialog = builder.create();
         dialog.show();
     }
