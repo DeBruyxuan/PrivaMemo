@@ -40,6 +40,7 @@ import java.util.Map;
 public class NoteEditText extends EditText {
     private static final String TAG = "NoteEditText";
     private int mIndex;
+    
     private int mSelectionStartBeforeDelete;
 
     private static final String SCHEME_TEL = "tel:" ;
