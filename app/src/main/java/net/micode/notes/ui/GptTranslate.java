@@ -52,6 +52,7 @@ public class GptTranslate {
     private String apiKey = "sk-Gus0G4Qhx9bdXdZ60bAfE9D6A0144fBcB17fA8326401134c";
 
     private String url = "https://api1.zhtec.xyz/v1/chat/completions";
+
     private String promptForTest = "What is the meaning of life?";
 
     private static String gptResponse;
@@ -69,6 +70,7 @@ public class GptTranslate {
     private class MyThread extends Thread {
 
         private boolean debugMode;
+        
         private String requestText;
 
         public MyThread(String request, boolean dbgMode) {
