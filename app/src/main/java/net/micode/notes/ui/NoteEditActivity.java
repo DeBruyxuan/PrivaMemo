@@ -128,6 +128,7 @@ public class NoteEditActivity extends Activity implements OnClickListener,
     private static final Map<Integer, Integer> sBgSelectorBtnsMap = new HashMap<Integer, Integer>();
     static {
         sBgSelectorBtnsMap.put(R.id.iv_bg_yellow, ResourceParser.YELLOW);
+
         sBgSelectorBtnsMap.put(R.id.iv_bg_red, ResourceParser.RED);
         sBgSelectorBtnsMap.put(R.id.iv_bg_blue, ResourceParser.BLUE);
         sBgSelectorBtnsMap.put(R.id.iv_bg_green, ResourceParser.GREEN);
@@ -198,6 +199,7 @@ public class NoteEditActivity extends Activity implements OnClickListener,
         super.onCreate(savedInstanceState);
         this.setContentView(R.layout.note_edit);
         Log.d(TAG,"onCreate");
+        
         if (savedInstanceState == null && !initActivityState(getIntent())) {
             finish();
             return;
