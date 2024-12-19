@@ -53,5 +53,10 @@ public class AddActivity extends Activity {
         return simpleDateFormat.format(date);
     }
 
+    // backup_func
+    // public String getCurrentTimeFormat() {
+    //     return new java.text.SimpleDateFormat("MM月dd HH:mm:ss").format(new java.util.Date());
+    // }
+
 
 }
