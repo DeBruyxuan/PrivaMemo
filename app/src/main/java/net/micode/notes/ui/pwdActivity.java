@@ -40,6 +40,7 @@ public class pwdActivity extends NotesListActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pwd);
         dbHelper = new SimpleDbHelper(this);
+        
         mBtnpwd = findViewById(R.id.btn_pwd);
         mEtpwd = findViewById(R.id.et_1);
 
@@ -51,6 +52,7 @@ public class pwdActivity extends NotesListActivity {
                 Intent intent = null;
                 String secret_pwd = dbHelper.hashPasswordWithSHA256(pwd);
                 int userId = 1;
+
                 Cursor cursor = dbHelper.getUser(userId);
 
                 if (cursor != null && cursor.moveToFirst()) { // 确保Cursor不为空且能移动到第一行
