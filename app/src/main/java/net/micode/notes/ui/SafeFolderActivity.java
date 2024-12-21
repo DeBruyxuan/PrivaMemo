@@ -34,6 +34,7 @@ public class SafeFolderActivity extends Activity {
 
     private RecyclerView mRecyclerView;
     private Button mBtnNew;
+
     private List<Note> mNotes;
 
     private MyAdapter mMyAdapter;
@@ -63,6 +64,7 @@ public class SafeFolderActivity extends Activity {
     }
 
     private void refreshDataFromDb() {
+        
         mNotes = getDataFromDB();
         mMyAdapter.refreshData(mNotes);
     }
