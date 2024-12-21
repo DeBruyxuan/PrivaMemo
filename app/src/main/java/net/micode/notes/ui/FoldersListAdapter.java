@@ -51,6 +51,7 @@ public class FoldersListAdapter extends CursorAdapter {
     @Override
     public void bindView(View view, Context context, Cursor cursor) {
         if (view instanceof FolderListItem) {
+
             String folderName = (cursor.getLong(ID_COLUMN) == Notes.ID_ROOT_FOLDER) ? context
                     .getString(R.string.menu_move_parent_folder) : cursor.getString(NAME_COLUMN);
             ((FolderListItem) view).bind(folderName);
@@ -60,6 +61,7 @@ public class FoldersListAdapter extends CursorAdapter {
     public String getFolderName(Context context, int position) {
         Cursor cursor = (Cursor) getItem(position);
         return (cursor.getLong(ID_COLUMN) == Notes.ID_ROOT_FOLDER) ? context
+        
                 .getString(R.string.menu_move_parent_folder) : cursor.getString(NAME_COLUMN);
     }
 
