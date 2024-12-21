@@ -43,6 +43,7 @@ public class AlarmInitReceiver extends BroadcastReceiver {
         long currentDate = System.currentTimeMillis();
         Cursor c = context.getContentResolver().query(Notes.CONTENT_NOTE_URI,
                 PROJECTION,
+
                 NoteColumns.ALERTED_DATE + ">? AND " + NoteColumns.TYPE + "=" + Notes.TYPE_NOTE,
                 new String[] { String.valueOf(currentDate) },
                 null);
@@ -56,6 +57,7 @@ public class AlarmInitReceiver extends BroadcastReceiver {
                     PendingIntent pendingIntent = PendingIntent.getBroadcast(context, 0, sender, 0);
                     AlarmManager alermManager = (AlarmManager) context
                             .getSystemService(Context.ALARM_SERVICE);
+                            
                     alermManager.set(AlarmManager.RTC_WAKEUP, alertDate, pendingIntent);
                 } while (c.moveToNext());
             }
