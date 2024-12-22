@@ -41,6 +41,7 @@ public class FileUtils {
         // DocumentProvider
         if (isKitKat && DocumentsContract.isDocumentUri(context, uri)) {
             // ExternalStorageProvider
+
             if (isExternalStorageDocument(uri)) {
                 final String docId = DocumentsContract.getDocumentId(uri);
                 final String[] split = docId.split(":");
@@ -60,6 +61,7 @@ public class FileUtils {
                     final String id;
                     Cursor cursor = null;
                     try {
+                        
                         cursor = context.getContentResolver().query(uri, new String[]{MediaStore.MediaColumns.DISPLAY_NAME}, null, null, null);
                         if (cursor != null && cursor.moveToFirst()) {
                             String fileName = cursor.getString(0);
