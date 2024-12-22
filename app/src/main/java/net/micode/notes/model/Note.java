@@ -155,6 +155,7 @@ public class Note {
         void setTextDataId(long id) {
             if(id <= 0) {
                 throw new IllegalArgumentException("Text data id should larger than 0");
+
             }
             mTextDataId = id;
         }
@@ -187,6 +188,7 @@ public class Note {
             }
 
             ArrayList<ContentProviderOperation> operationList = new ArrayList<ContentProviderOperation>();
+            
             ContentProviderOperation.Builder builder = null;
 
             if(mTextDataValues.size() > 0) {
