@@ -37,6 +37,7 @@ public class DropdownMenu {
         mButton.setBackgroundResource(R.drawable.dropdown_icon);
         mPopupMenu = new PopupMenu(context, mButton);
         mMenu = mPopupMenu.getMenu();
+
         mPopupMenu.getMenuInflater().inflate(menuId, mMenu);
         mButton.setOnClickListener(new OnClickListener() {
             public void onClick(View v) {
@@ -47,6 +48,7 @@ public class DropdownMenu {
 
     public void setOnDropdownMenuItemClickListener(OnMenuItemClickListener listener) {
         if (mPopupMenu != null) {
+            
             mPopupMenu.setOnMenuItemClickListener(listener);
         }
     }
