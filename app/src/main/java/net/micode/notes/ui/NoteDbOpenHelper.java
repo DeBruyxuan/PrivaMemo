@@ -39,6 +39,7 @@ public class NoteDbOpenHelper extends SQLiteOpenHelper {
 
         ContentValues values = new ContentValues();
         values.put("content",note.getContent());
+        
         values.put("create_time",note.getCreatedTime());
 
         return db.insert(TABLE_NAME_NOTE,null,values);
