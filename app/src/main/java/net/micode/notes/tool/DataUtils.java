@@ -51,6 +51,7 @@ public class DataUtils {
         for (long id : ids) {
             if(id == Notes.ID_ROOT_FOLDER) {
                 Log.e(TAG, "Don't delete system folder root");
+
                 continue;
             }
             ContentProviderOperation.Builder builder = ContentProviderOperation
@@ -59,6 +60,7 @@ public class DataUtils {
         }
         try {
             ContentProviderResult[] results = resolver.applyBatch(Notes.AUTHORITY, operationList);
+            
             if (results == null || results.length == 0 || results[0] == null) {
                 Log.d(TAG, "delete notes failed, ids:" + ids.toString());
                 return false;
