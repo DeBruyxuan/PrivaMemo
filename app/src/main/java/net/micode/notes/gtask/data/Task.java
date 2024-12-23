@@ -72,6 +72,7 @@ public class Task extends Node {
             JSONObject entity = new JSONObject();
             entity.put(GTaskStringUtils.GTASK_JSON_NAME, getName());
             entity.put(GTaskStringUtils.GTASK_JSON_CREATOR_ID, "null");
+            
             entity.put(GTaskStringUtils.GTASK_JSON_ENTITY_TYPE,
                     GTaskStringUtils.GTASK_JSON_TYPE_TASK);
             if (getNotes() != null) {
