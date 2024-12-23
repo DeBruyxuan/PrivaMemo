@@ -58,6 +58,7 @@ public class TaskList extends Node {
             js.put(GTaskStringUtils.GTASK_JSON_INDEX, mIndex);
 
             // entity_delta
+            
             JSONObject entity = new JSONObject();
             entity.put(GTaskStringUtils.GTASK_JSON_NAME, getName());
             entity.put(GTaskStringUtils.GTASK_JSON_CREATOR_ID, "null");
