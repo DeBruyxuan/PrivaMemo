@@ -60,6 +60,7 @@ public abstract class NoteWidgetProvider extends AppWidgetProvider {
     private Cursor getNoteWidgetInfo(Context context, int widgetId) {
         return context.getContentResolver().query(Notes.CONTENT_NOTE_URI,
                 PROJECTION,
+                
                 NoteColumns.WIDGET_ID + "=? AND " + NoteColumns.PARENT_ID + "<>?",
                 new String[] { String.valueOf(widgetId), String.valueOf(Notes.ID_TRASH_FOLER) },
                 null);
